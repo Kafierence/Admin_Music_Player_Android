@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "293735735587",
+    "project_id": "mediaplayer-bd6cd",
+    "storage_bucket": "mediaplayer-bd6cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293735735587:android:49f9b4093f9fd308b72c96",
+        "android_client_info": {
+          "package_name": "hcmute.edu.vn.admin_music_player_g6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293735735587-9172vmllj015f6ev4ffcj5n352cjtf64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrYlgPPioxgG2bkJ0N9GK91hCkF3UF27w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293735735587-9172vmllj015f6ev4ffcj5n352cjtf64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
