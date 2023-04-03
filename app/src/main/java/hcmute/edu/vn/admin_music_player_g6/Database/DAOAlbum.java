@@ -15,7 +15,7 @@ public class DAOAlbum {
     public DAOAlbum() {
         db = FirebaseDatabase.getInstance("https://mediaplayer-bd6cd-default-rtdb.firebaseio.com/");
 
-        databaseReference = db.getReference(Album.class.getSimpleName()); // return class name
+        databaseReference = db.getReference("Album"); // return class name
     }
     //function add Album
     public Task<Void> add(Album album){

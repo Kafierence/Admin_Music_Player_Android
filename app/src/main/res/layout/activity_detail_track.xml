@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Genre.EditGenreActivity">
+
+    <ImageButton
+        android:id="@+id/backTrack3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back" />
+
+    <ImageView
+        android:id="@+id/ImageView_imageTrack"
+        android:layout_width="0dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backTrack3"
+        app:srcCompat="@drawable/hip_hop" />
+
+    <TextView
+        android:id="@+id/TextView_TrackName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:inputType="text"
+        android:text="Name"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView_imageTrack" />
+
+    <TextView
+        android:id="@+id/textView_TrackGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:text="Genre"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/TextView_TrackName"
+        app:layout_constraintStart_toStartOf="@+id/TextView_TrackName"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_TrackName" />
+
+
+    <TextView
+        android:id="@+id/textView_TrackAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:text="Album Name"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView_TrackGenre"
+        app:layout_constraintStart_toStartOf="@+id/textView_TrackGenre"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TrackGenre" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_delete3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+
+        android:background="@color/red"
+        android:text="Remove"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_ArtistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView_TrackAlbum"
+        app:layout_constraintStart_toStartOf="@+id/textView_TrackAlbum"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TrackAlbum" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

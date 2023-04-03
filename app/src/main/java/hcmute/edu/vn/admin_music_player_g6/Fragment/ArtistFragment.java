@@ -18,12 +18,13 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import hcmute.edu.vn.admin_spotify.Activity.Artists.AddArtistActivity;
-import hcmute.edu.vn.admin_spotify.Adapter.ArtistAdapter;
-import hcmute.edu.vn.admin_spotify.Database.DAOArtist;
-import hcmute.edu.vn.admin_spotify.Model.Artist;
-import hcmute.edu.vn.admin_spotify.R;
-import hcmute.edu.vn.admin_spotify.databinding.FragmentArtistBinding;
+import hcmute.edu.vn.admin_music_player_g6.Activity.Artists.AddArtistActivity;
+import hcmute.edu.vn.admin_music_player_g6.Adapter.ArtistAdapter;
+import hcmute.edu.vn.admin_music_player_g6.Database.DAOArtist;
+import hcmute.edu.vn.admin_music_player_g6.Models.Artist;
+import hcmute.edu.vn.admin_music_player_g6.R;
+import hcmute.edu.vn.admin_music_player_g6.databinding.FragmentArtistBinding;
+
 
 
 public class ArtistFragment extends Fragment {

@@ -5,24 +5,24 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 
-import hcmute.edu.vn.admin_music_player_g6.Models.Artist;
+import hcmute.edu.vn.admin_music_player_g6.Models.Track;
 
 
-public class DAOArtist {
+public class DAOTrack {
     public DatabaseReference databaseReference;
     final FirebaseDatabase db;
-    //start Artist database
-    public DAOArtist() {
+    //start Track database
+    public DAOTrack() {
         db = FirebaseDatabase.getInstance("https://mediaplayer-bd6cd-default-rtdb.firebaseio.com/");
 
-        databaseReference = db.getReference("Artists"); // return class name
+        databaseReference = db.getReference("Track"); // return class name
     }
-    //function add Artist
-    public Task<Void> add(Artist artist){
-        if(artist != null) {
+    //function add Track
+    public Task<Void> add(Track track){
+        if(track != null) {
             try{
                 // return databaseReference.push().setValue(album);
-                return databaseReference.child(String.valueOf(artist.getIdArtist())).setValue(artist);
+                return databaseReference.child(track.getName()).setValue(track);
             }
             catch (Exception e){
                 e.getMessage();
@@ -30,16 +30,16 @@ public class DAOArtist {
         }
         return null;
     }
-    //function update Artist
-    public Task<Void> update(Artist artist){
-        return databaseReference.child(artist.getKey()).updateChildren(artist.toMap());
+    //function update Track
+    public Task<Void> update(Track track){
+        return databaseReference.child(track.getKey()).updateChildren(track.toMap());
     }
-    //function remove Artist
+    //function remove Track
     public Task<Void> remove(String key){
         return databaseReference.child(key).removeValue();
     }
 
-    //get attribute of Artist
+    //get attribute of Track
     public Query getByKey(){
         return databaseReference.orderByKey();
     }

@@ -23,13 +23,14 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import hcmute.edu.vn.admin_spotify.Activity.Album.EditAlbumActivity;
-import hcmute.edu.vn.admin_spotify.Adapter.TrackAdapter;
-import hcmute.edu.vn.admin_spotify.Database.DAOAlbum;
-import hcmute.edu.vn.admin_spotify.Database.DAOTrack;
-import hcmute.edu.vn.admin_spotify.Model.Album;
-import hcmute.edu.vn.admin_spotify.Model.Track;
-import hcmute.edu.vn.admin_spotify.R;
+import hcmute.edu.vn.admin_music_player_g6.Activity.Album.EditAlbumActivity;
+import hcmute.edu.vn.admin_music_player_g6.Adapter.TrackAdapter;
+import hcmute.edu.vn.admin_music_player_g6.Database.DAOAlbum;
+import hcmute.edu.vn.admin_music_player_g6.Database.DAOTrack;
+import hcmute.edu.vn.admin_music_player_g6.Models.Album;
+import hcmute.edu.vn.admin_music_player_g6.Models.Track;
+import hcmute.edu.vn.admin_music_player_g6.R;
+
 
 public class DetailAlbumActivity extends AppCompatActivity {
     RecyclerView recyclerViewTrack;
@@ -105,7 +106,7 @@ public class DetailAlbumActivity extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(DetailAlbumActivity.this, hcmute.edu.vn.admin_spotify.Activity.AdminActivity.class);
+                Intent intent = new Intent(DetailAlbumActivity.this, hcmute.edu.vn.admin_music_player_g6.Activity.AdminActivity.class);
                 startActivity(intent);
             }
         });

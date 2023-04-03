@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    app:cardBackgroundColor="@color/teal_200"
+    app:cardCornerRadius="100dp"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/item_tracks_TrackImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/artist" />
+
+        <TextView
+            android:id="@+id/item_tracks_TrackNameTxt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_tracks_TrackImg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Some one like you"
+            android:textColor="@color/white" />
+
+        <TextView
+
+            android:id="@+id/item_tracks_AlbumTxt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_tracks_TrackNameTxt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Adele - Top 1 music chart"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

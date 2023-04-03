@@ -15,7 +15,7 @@ public class DAOGenre {
     public DAOGenre() {
         db = FirebaseDatabase.getInstance("https://mediaplayer-bd6cd-default-rtdb.firebaseio.com/");
 
-        databaseReference = db.getReference("genres"); // return class name
+        databaseReference = db.getReference("Genres"); // return class name
     }
     //function add genre
     public Task<Void> add(Genre genre){

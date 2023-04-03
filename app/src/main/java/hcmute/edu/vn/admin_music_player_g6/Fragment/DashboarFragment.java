@@ -26,6 +26,17 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
+import hcmute.edu.vn.admin_music_player_g6.Activity.Album.AddAlbumActivity;
+import hcmute.edu.vn.admin_music_player_g6.Activity.Genre.AddGenreActivity;
+import hcmute.edu.vn.admin_music_player_g6.Activity.Track.AddTrackActivity;
+import hcmute.edu.vn.admin_music_player_g6.Adapter.AlbumAdapter;
+import hcmute.edu.vn.admin_music_player_g6.Adapter.TrackAdapter;
+import hcmute.edu.vn.admin_music_player_g6.Database.DAOAlbum;
+import hcmute.edu.vn.admin_music_player_g6.Database.DAOTrack;
+import hcmute.edu.vn.admin_music_player_g6.Models.Album;
+import hcmute.edu.vn.admin_music_player_g6.Models.Track;
+import hcmute.edu.vn.admin_music_player_g6.R;
+
 
 public class DashboarFragment extends Fragment {
 
