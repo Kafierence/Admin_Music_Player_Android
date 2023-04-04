@@ -20,7 +20,10 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-
+import hcmute.edu.vn.admin_music_player_g6.Activity.Genre.AddGenreActivity;
+import hcmute.edu.vn.admin_music_player_g6.Adapter.GenreAdapter;
+import hcmute.edu.vn.admin_music_player_g6.Models.Genre;
+import hcmute.edu.vn.admin_music_player_g6.R;
 
 
 public class GenreFragment extends Fragment {

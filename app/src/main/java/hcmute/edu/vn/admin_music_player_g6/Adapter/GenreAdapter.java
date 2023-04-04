@@ -13,6 +13,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+import hcmute.edu.vn.admin_music_player_g6.Activity.Genre.EditGenreActivity;
+import hcmute.edu.vn.admin_music_player_g6.Models.Genre;
+import hcmute.edu.vn.admin_music_player_g6.R;
+
 
 public class GenreAdapter extends RecyclerView.Adapter<GenreAdapter.GenreViewHolder>{
 

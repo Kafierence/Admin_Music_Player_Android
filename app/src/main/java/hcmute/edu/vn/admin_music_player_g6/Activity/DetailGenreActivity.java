@@ -9,8 +9,9 @@ import android.widget.ImageButton;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import hcmute.edu.vn.admin_spotify.Activity.Genre.EditGenreActivity;
-import hcmute.edu.vn.admin_spotify.R;
+import hcmute.edu.vn.admin_music_player_g6.Activity.Genre.EditGenreActivity;
+import hcmute.edu.vn.admin_music_player_g6.R;
+
 
 public class DetailGenreActivity extends AppCompatActivity {
 

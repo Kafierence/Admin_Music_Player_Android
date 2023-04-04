@@ -15,10 +15,9 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
+import hcmute.edu.vn.admin_music_player_g6.Activity.DetailAlbumActivity;
 import hcmute.edu.vn.admin_music_player_g6.Models.Album;
-import hcmute.edu.vn.admin_spotify.Activity.DetailAlbumActivity;
-import hcmute.edu.vn.admin_spotify.Model.Album;
-import hcmute.edu.vn.admin_spotify.R;
+import hcmute.edu.vn.admin_music_player_g6.R;
 
 
 public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.AlbumViewHolder>{

@@ -13,7 +13,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import hcmute.edu.vn.admin_music_player_g6.Activity.Artists.EditArtistActivity;
 import hcmute.edu.vn.admin_music_player_g6.Models.Artist;
+import hcmute.edu.vn.admin_music_player_g6.R;
 
 
 public class ArtistAdapter extends RecyclerView.Adapter<ArtistAdapter.ArtistViewHolder> {

@@ -33,7 +33,7 @@
         android:layout_width="250dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:menu="@menu/side_nav_menu"
+        app:menu="@menu/sidebar_navigation"
         app:headerLayout="@layout/navigation_header">
         
 
