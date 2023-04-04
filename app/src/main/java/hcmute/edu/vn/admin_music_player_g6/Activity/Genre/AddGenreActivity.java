@@ -87,7 +87,7 @@ public class AddGenreActivity extends AppCompatActivity {
 
         //add genre to database
         database.getReference()
-                .child("genres")
+                .child("Genres")
                 .child(randomKey)
                 .setValue(genre).addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override

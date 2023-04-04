@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -32,6 +33,10 @@
         </activity>
         <activity android:name=".Activity.DetailGenreActivity" />
         <activity android:name=".Activity.DetailAlbumActivity" />
+        <activity android:name=".Activity.DetailTrackActivity" />
+
+        <activity android:name=".Activity.Track.AddTrackActivity" />
+        <activity android:name=".Activity.Track.EditTrackActivity" />
 
         <activity android:name=".Activity.Genre.EditGenreActivity" />
         <activity android:name=".Activity.Album.EditAlbumActivity" />

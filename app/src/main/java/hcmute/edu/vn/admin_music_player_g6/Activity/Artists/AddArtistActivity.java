@@ -5,6 +5,7 @@ import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
@@ -144,7 +145,7 @@ public class AddArtistActivity extends AppCompatActivity {
                                             String urlImg=uri.toString();
                                             Artist artist=new Artist(randomKey,name,email,0,urlImg,gender,linkSocial);
                                             database.getReference()
-                                                .child("artists")
+                                                .child("Artists")
                                                 .child(randomKey)
                                                 .setValue(artist)
                                                 .addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -171,22 +172,24 @@ public class AddArtistActivity extends AppCompatActivity {
 
                 }
                 else{
+
                     Artist artist=new Artist(randomKey,name,email,0,"NO IMAGE",gender,linkSocial);
                     database.getReference()
-                            .child("artists")
+                            .child("Artists")
                             .child(randomKey)
                             .setValue(artist)
                             .addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void aVoid) {
 
-
+                                    Log.e("Dk","Add Success");
                                     finish();
                                 }
+
                             }).addOnFailureListener(new OnFailureListener() {
                                 @Override
                                 public void onFailure(@NonNull Exception e) {
-
+                                    Log.e("Dk","Add Failed");
                                     finish();
                                 }
                             });
@@ -261,7 +264,7 @@ public class AddArtistActivity extends AppCompatActivity {
                                     String filePath = uri.toString();
                                     HashMap<String, Object> obj = new HashMap<>();
                                     obj.put("image", filePath);
-                                    database.getReference().child("artists")
+                                    database.getReference().child("Artists")
                                             .child(randomKey)
                                             .updateChildren(obj).addOnSuccessListener(new OnSuccessListener<Void>() {
                                                 @Override
