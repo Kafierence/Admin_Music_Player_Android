@@ -81,7 +81,7 @@ public class GenreFragment extends Fragment {
         genreRecycler.setAdapter(genreAdapter);
 
         //get genre database
-        database.getReference().child("genres").addValueEventListener(new ValueEventListener() {
+        database.getReference().child("Genres").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 genres.clear();

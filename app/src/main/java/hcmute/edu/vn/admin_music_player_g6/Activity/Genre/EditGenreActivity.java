@@ -82,7 +82,7 @@ public class EditGenreActivity extends AppCompatActivity {
         Map<String,Object> genValue=genre.toMap();
         Map<String, Object> childUpdates = new HashMap<>();
 
-        childUpdates.put("/genres/"+genre.getKey(),genValue);
+        childUpdates.put("/Genres/"+genre.getKey(),genValue);
         mDatabase.updateChildren(childUpdates);
         finish();
 
