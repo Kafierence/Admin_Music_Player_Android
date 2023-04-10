@@ -13,9 +13,19 @@
         <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/activity_add_genre.xml" value="0.32916666666666666" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/activity_add_track.xml" value="0.35833333333333334" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/activity_admin.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/activity_detail_album.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/activity_detail_genre.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/activity_detail_track.xml" value="0.35643115942028986" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/activity_edit_album.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/activity_edit_artist.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/activity_edit_genre.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/activity_edit_track.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/fragment_admin_album.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/fragment_artist.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/fragment_dashboard.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/fragment_song.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/item_artist.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/item_genre.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/item_song.xml" value="0.3614583333333333" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/layout/item_tracks.xml" value="0.3625" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/Music Player/Music_Player_Admin/app/src/main/res/menu/sidebar_navigation.xml" value="0.3625" />

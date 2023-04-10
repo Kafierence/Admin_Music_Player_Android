@@ -23,15 +23,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/activity_add_track_LyricEditTxt" />
 
+
         <Spinner
+            app:layout_constraintEnd_toEndOf="@+id/activity_add_track_LyricEditTxt"
+            app:layout_constraintStart_toStartOf="@+id/activity_add_track_LyricEditTxt"
+            app:layout_constraintTop_toBottomOf="@+id/activity_add_track_NameEditTxt"
             android:id="@+id/activity_add_track_GenreSpinner"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
-            app:layout_constraintEnd_toEndOf="@+id/activity_add_track_LyricEditTxt"
-            app:layout_constraintStart_toStartOf="@+id/activity_add_track_LyricEditTxt"
-            app:layout_constraintTop_toBottomOf="@+id/activity_add_track_NameEditTxt" />
+          />
 
         <TextView
             android:id="@+id/txtAdminAdd3"

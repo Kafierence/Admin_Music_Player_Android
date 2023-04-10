@@ -18,9 +18,7 @@
             android:id="@+id/songs"
             android:icon="@drawable/ic_music"/>
     </group>
-    <item android:title="Youtube"
-        android:id="@+id/youtube"
-        android:icon="@drawable/ic_youtube"/>
+
 
 
 </menu>

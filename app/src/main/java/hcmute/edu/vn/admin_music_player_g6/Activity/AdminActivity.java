@@ -70,14 +70,9 @@ public class AdminActivity extends AppCompatActivity implements NavigationView.O
             case R.id.albums:
                 getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout2, new AlbumFragment()).commit();
                 break;
-            //Change to song admi
 
-            //Change to youtube website
-            case R.id.youtube:
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("https://www.youtube.com/"));
-                startActivity(intent);
-                break;
+
+
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);
